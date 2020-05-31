@@ -1,7 +1,7 @@
-//Esto es una modificacin simple de led intermitente, se hace con 2 leds
+//Esto es una modificaci0n simple de led intermitente, se hace con 2 leds se prende el 1 led y el 2 se apaga
 void setup(){// se realiza los ajustes y definicion de variables
   pinMode(13,OUTPUT);//se define el pin 13 como salida alli se va a conectar que se prenda y apague
-  pinMode(12,OUTPUT);//se define el pin 13 como salida alli se va a conectar que se prenda y apague
+  pinMode(12,OUTPUT);//se define el pin 12 como salida alli se va a conectar que se prenda y apague
 }
 void loop(){
   digitalWrite(13,HIGH);// se define con que valor va a ser la salida HIGH= 5V que equivale a led prendido
