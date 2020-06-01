@@ -1,5 +1,7 @@
  // Práctica encender LED con botón pulsador y luego apagar LED con el mismo
 //boton pulsador
+
+//Esto es otra forma de apagar y prender un led con un  pulsante
 const int LED =3;
 const int BOTON = 2;
 int val = 0; //val se emplea para almacenar el estado del boton
@@ -26,3 +28,4 @@ else{
  digitalWrite(LED,LOW); // apagar el LED
 }
 }
+//Esquema de conexión ver el link https://github.com/RafaelLandy/Aprendiendo_arduino/tree/master/05_Otra_forma_de_apagar_y_prender_led_con_pulsante

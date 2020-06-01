@@ -1,3 +1,4 @@
+//Este codigo hace que suba y baje lentamente la intensidad de un led
 int led= 3; //se asigna led a pin 3
 int brillo; //definimos la varilable brillo 
 
@@ -22,3 +23,4 @@ delay(10); //demora 10 milisegundos por cada valor es decir aqui se calibra la v
 
 
 }
+// Esquema de conexión ver link https://github.com/RafaelLandy/Aprendiendo_arduino/tree/master/08_Hacer_de_led_suba_y_baje_la_intensidad_solo

@@ -1,3 +1,4 @@
+// Uso de la función FOR - cambia paulatinamente la intensidad de un led
 int led= 3; //se asigna led a pin 3
 int brillo; //definimos la varilable brillo 
 
@@ -15,3 +16,4 @@ analogWrite(led,brillo);  // enciende led con itensidad luminica empenzando de 0
 delay(10); //demora 10 milisegundos por cada valor es decir aqui se calibra la velocidad de pasar de 0 a 255
 }
 }
+//Esquema de conexión ver en el siguinte link https://github.com/RafaelLandy/Aprendiendo_arduino/tree/master/07_Hacer_que_el_led_aumente_su_intensidad_lentamente_con_funcion

@@ -13,3 +13,4 @@ void loop(){
   digitalWrite(13,LOW);// se define con que valor va a ser la salida LOW= 0 , en este caso se apaga
   delay(1000); // es un tiempo en mili segundos 1000= 1 segundo, para que se vea lo apagado
 }
+//Esquema de conexión ver en la siguinte dirección https://github.com/RafaelLandy/Aprendiendo_arduino/tree/master/02_LEDs_INTERMITENTEs
