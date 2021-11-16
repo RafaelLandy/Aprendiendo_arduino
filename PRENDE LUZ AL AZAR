@@ -1,0 +1,19 @@
+#include <TimeLib.h>
+
+int timer=300;
+int cont = 13;              //tenemos 13 LEDs
+
+void setup(){
+ for (int pin=1; pin<=cont; pin++){
+  pinMode (pin, OUTPUT);
+ }
+ randomSeed(analogRead(0));  //para generar una nueva semilla
+}
+          
+void loop () {
+ int rnd=random(14);        // ponemos hasta 14 ya que nunca se llega a 14
+ digitalWrite (rnd, HIGH);
+ delay (timer);
+ digitalWrite (rnd, LOW);
+ delay (timer);
+}
